@@ -5,6 +5,18 @@ import App from './App';
 import Hello from './components/hello';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Hello />,
- document.getElementById('root'));
+
+const root = <div>
+  <Hello firstName="Mister."lastName="Jens" />
+  <Hello firstName="Miss."lastName="Jens" />
+
+</div>;
+
+
+ReactDOM.render(root, document.getElementById('root'));
+
+//key(name) and value(Marci)
+
+
+
 registerServiceWorker();
