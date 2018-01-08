@@ -26,9 +26,6 @@ class Flat extends React.Component {
      {title}
     </div>
    </div>
-
-
-
    );
  }
 }
