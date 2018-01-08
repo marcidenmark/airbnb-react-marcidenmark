@@ -1,4 +1,23 @@
-.App {
+.app {
+ display: flex;
+}
+
+.main {
+ background-color: pink;
+ flex-basis: 60%;
+ display:flex ;
+ flex-direction: column;
+}
+
+.map {
+ background-color:yellow;
+ flex-grow: 1;
+ height: 100vh;
+ top: 0;
+ position: sticky;
+}
+
+/*.App {
   text-align: center;
 }
 
@@ -26,3 +45,4 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+*/

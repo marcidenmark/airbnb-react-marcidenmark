@@ -13,7 +13,7 @@ const root = <div>
 </div>;
 
 
-ReactDOM.render(root, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 //key(name) and value(Marci)
 
