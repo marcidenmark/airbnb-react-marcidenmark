@@ -13,9 +13,9 @@ class Flat extends React.Component {
    this.props.flat.lng;
 
   const style = {
-   // backgroundImage: "url('" + this.props.flat.imageUrl + "')"
+   backgroundImage: "url('" + this.props.flat.imageUrl + "')"
    // //instead let's use template literals from es6!
-   backgroundImage: `url('$this.props.flat.imageUrl}')`
+   // backgroundImage: `url('$this.props.flat.imageUrl}')`
 
   };
 
