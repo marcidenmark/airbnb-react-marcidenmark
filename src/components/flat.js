@@ -4,6 +4,8 @@ import "./flat.css";
 
 
 class Flat extends React.Component {
+    handleClick = () =>
+    this.props.handleClick(this.props.flat);
   render() {
     const style = {
       backgroundImage: `url('${this.props.flat.imageUrl}')`

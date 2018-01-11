@@ -2,19 +2,22 @@
  display: flex;
  flex-wrap: wrap;
  align-content: start;
+ cursor: pointer;
+}
+
+.flat:hover {
+ opacity: 0.9;
 }
 
 .flat {
  flex-basis: calc(50% - 20px);
  margin: 10px;
- background-color: grey;
 }
 
 .flat-picture {
  background-position: center;
  height: 200px;
  background-size: cover;
- background-color: orange;
 }
 
 .flat-title {
