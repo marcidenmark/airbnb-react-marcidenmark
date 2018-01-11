@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Hello from './components/hello';
+// import Hello from './components/hello';
 import registerServiceWorker from './registerServiceWorker';
 
 
-const root = <div>
-  <Hello firstName="Mister."lastName="Jens" />
-  <Hello firstName="Miss."lastName="Jens" />
+// const root = <div>
+//   <Hello firstName="Mister."lastName="Jens" />
+//   <Hello firstName="Miss."lastName="Jens" />
 
-</div>;
+// </div>;
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
