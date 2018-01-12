@@ -1,15 +1,16 @@
 .marker {
- width: 48px;
- background-color: white;
- border: 1px solid #999;
- border-radius: 4px;
- text-align: center;
- padding: 4px 0;
- font-size: 15px;
+	 color: white;
+	 width: 48px;
+	 background-color: RGBA(214, 193, 177, 1.00);
+	 border: 1px solid #999;
+	 border-radius: 1px;
+	 text-align: center;
+	 padding: 6px 6px;
+	 font-size: 15px;
+	 letter-spacing: 3px;
 }
 
-.marker.select {
-	background-color: gray;
+.marker.selected {
+	background-color: RGBA(255, 165, 0, 1.00);
 	border-color: black;
-
 }
