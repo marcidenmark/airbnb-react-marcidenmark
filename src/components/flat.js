@@ -17,6 +17,9 @@ class Flat extends React.Component {
         <div className="flat-title">{title}</div>
       </div>);
   }
+  	handleClick = () => {
+  		this.props.selectFlat(this.props.flat);
+  	}
  }
 
 export default Flat;
