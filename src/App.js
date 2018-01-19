@@ -4,7 +4,7 @@ import GoogleMapReact from 'google-map-react';
 import './App.css';
 import Flat from './components/flat';
 import Marker from './components/marker';
-
+import Header from './components/header';
 
 class App extends Component {
  constructor(props){
@@ -59,6 +59,12 @@ class App extends Component {
       return (
       <div className="app">
         <div className="main">
+        	<div>
+        		<h1>title</h1>
+
+
+        	</div>
+
           <div className="search">
             <input type="text" placeholder="Search..." value={this.state.search}
               onChange={this.handleSearch} />
