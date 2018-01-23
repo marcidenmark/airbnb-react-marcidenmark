@@ -60,7 +60,7 @@ class App extends Component {
       <div className="app">
         <div className="main">
         	<div>
-        		<h1>title</h1>
+        		<h1>This is the header of</h1>
 
 
         	</div>
