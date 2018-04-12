@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.css';// makes css automatic update when coding
 import App from './App';
 // import Hello from './components/hello';
 import registerServiceWorker from './registerServiceWorker';
